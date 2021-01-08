@@ -1,6 +1,8 @@
 import UIHWPod2
 
-public func firstPodAction() {
+public func printFirst() {
     print("First")
-    secondPodAction()
+}
+public func printSecond() {
+    UIHWPod2.printSecond()
 }
