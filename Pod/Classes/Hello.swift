@@ -1,11 +1,6 @@
-import Foundation
+import UIHWPod2
 
 public func firstPodAction() {
     print("First")
-}
-
-public struct FirstPod {
-    func action() {
-        print("First")
-    }
+    secondPodAction()
 }
